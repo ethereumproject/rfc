@@ -7,6 +7,8 @@ We collect specifications for APIs, file formats, protocols, and processes.
 
 You can start contributing by sending a pull request to https://github.com/ethereumproject/rfc on GitHub.
 
+Please visit https://sjmackenzie.gitbooks.io/rfc/content/ for the rendered content.
+
 ## Guidelines
 
 * A specification SHOULD be created and modified by pull requests according to [RFC 1/C4](1/README.md)
