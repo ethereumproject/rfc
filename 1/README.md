@@ -4,6 +4,8 @@ shortname: 1/C4
 name: Collective Code Construction Contract
 status: stable
 editor: Stewart Mackenzie <setori88@gmail.com>
+contributors:
+  - Pieter Hintjens <ph@imatix.com>
 ---
 
 The Collective Code Construction Contract (C4) is an evolution of the github.com [Fork + Pull Model](http://help.github.com/send-pull-requests/), aimed at providing an optimal collaboration model for free software projects. This is revision 2 of the C4 specification.
