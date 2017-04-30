@@ -3,8 +3,9 @@ domain: rfc.unprotocols.org
 shortname: 2/COSS
 name: Consensus-Oriented Specification System
 status: draft
-editor: Yurii Rashkovskii <yrashk@gmail.com>
+editor: Stewart Mackenzie <setori88@gmail.com>
 contributors:
+  - Yurii Rashkovskii <yrashk@gmail.com>
   - Pieter Hintjens <ph@imatix.com>
   - André Rebentisch <andre@openstandards.de>
   - Alberto Barrionuevo <abarrio@opentia.es>
