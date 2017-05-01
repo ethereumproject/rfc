@@ -3,7 +3,7 @@ Ethereum Classic RFC
 
 This is the Ethereum Classic RFC project.
 
-We collect specifications for APIs, file formats, protocols, processes and compositions of RFCs which result in a blockchain hardfork.
+We collect specifications for APIs, file formats, protocols, processes and compositions of RFCs which result in a blockchain hard/soft fork.
 
 You can start contributing by sending a pull request to https://github.com/ethereumproject/rfc on GitHub.
 
