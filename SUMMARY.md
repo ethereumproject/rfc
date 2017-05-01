@@ -20,8 +20,8 @@
 * [RFCOMP Introduction](RFCOMP.md)
 * Rawnet
 * Draftnet
-  * [10/MP](2c/README.md)
+  * [10/GOTHAM](10/README.md)
 * Stablenet
-  * [9/DIEHARD](1c/README.md)
+  * [9/DIEHARD](9/README.md)
 * Deprecatednet
 * Retirednet
