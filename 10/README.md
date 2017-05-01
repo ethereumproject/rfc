@@ -1,7 +1,7 @@
 ---
 domain: rfc.ethereumclassic.org
-shortname: 10/MP
-name: Monetary Policy
+shortname: 10/GOTHAM
+name: Gotham City
 status: draft
 editor: Stewart Mackenzie <setori88@gmail.com>
 ---
