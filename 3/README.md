@@ -4,7 +4,6 @@ shortname: 3/FEE
 name: Ethereum Yellow Paper
 status: deprecated
 editor: Wei Tang <hi@that.world>
-contributors: Stewart Mackenzie <setori88@gmail.com>
 ---
 
 ## Hard Fork
