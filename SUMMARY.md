@@ -17,7 +17,6 @@
 
 # RFC Combinations Summary
 
-* [RFCOMP Introduction](RFCOMP.md)
 * Rawnet
 * Draftnet
   * [10/GOTHAM](10/README.md)
