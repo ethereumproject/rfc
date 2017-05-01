@@ -1,18 +1,16 @@
 ---
 domain: rfc.ethereumclassic.org
-shortname: 1c/RFCOMP
-name: RFC Composition One
+shortname: 1c/DIEHARD
+name: [YIPEE KAY YAY](https://www.youtube.com/watch?v=pEOVNmSR7_c)
 status: stable
 editor: Stewart Mackenzie <setori88@gmail.com>
 ---
 
+
+
 | Feature | RFC |
 |---------|-----|
-|consensus| ?/CONS|
-|opcode| ?/OPC|
 |difficulty| 8/DIFF|
-||100-200: ?/FEE|
-|montetary policy| ?/MP|
 |fee schedule|
   | Block Number | Applied RFCs |
   | ------------ | ------------ |
