@@ -55,7 +55,7 @@ block number 0 in Ethereum and Ethereum Classic mainnet.
 | `G_codedeposit` | 200 | Paid per byte for a `CREATE` operation to succeed in placing code into state. |
 | `G_call` | 40 | Paid for a `CALL` operation. |
 | `G_callvalue` | 9000 | Paid for a non-zero value transfer as part of the `CALL` operation. |
-| `G_callstipend` | 2300 | A stipend for the called contract subtracted from | `G_callvalue` for a non-zero value transfer. |
+| `G_callstipend` | 2300 | A stipend for the called contract subtracted from `G_callvalue` for a non-zero value transfer. |
 | `G_newaccount` | 25000 | Paid for a `CALL` operation to a not previously excisting account. |
 | `G_exp` | 10 | Partial payment for an `EXP` operation. |
 | `G_expbyte` | 10 | Partial payment for the `EXP` operation. |
