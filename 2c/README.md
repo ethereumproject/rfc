@@ -1,6 +1,6 @@
 ---
 domain: rfc.ethereumclassic.org
-shortname: 2/RFCOMP
+shortname: 2c/RFCOMP
 name: RFC Composition Two
 status: draft
 editor: Stewart Mackenzie <setori88@gmail.com>

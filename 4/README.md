@@ -1,8 +1,8 @@
 ---
 domain: rfc.ethereumclassic
-shortname: 4/HS
-name: Homestead Hard-fork
-status: raw
+shortname: 4/FEE
+name: Homestead Hard-fork FEE change
+status: deprecated
 editor: Wei Tang <hi@that.world>
 ---
 

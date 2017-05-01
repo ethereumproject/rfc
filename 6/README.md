@@ -2,7 +2,7 @@
 domain: rfc.ethereumclassic
 shortname: 6/REPLAY
 name: Simple Replay Attach Protection
-status: raw
+status: stable
 editor: Wei Tang <hi@that.world>
 ---
 

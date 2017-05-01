@@ -2,7 +2,7 @@
 domain: rfc.ethereumclassic
 shortname: 8/DIFF
 name: Delay Difficulty Bomb Explosion
-status: raw
+status: stable
 editor: Wei Tang <hi@that.world>
 ---
 
