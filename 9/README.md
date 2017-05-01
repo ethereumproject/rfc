@@ -1,6 +1,6 @@
 ---
 domain: rfc.ethereumclassic.org
-shortname: 1/DIEHARD
+shortname: 9/DIEHARD
 name: DIE HARD
 status: stable
 editor: Stewart Mackenzie <setori88@gmail.com>
