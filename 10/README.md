@@ -6,6 +6,11 @@ status: draft
 editor: Stewart Mackenzie <setori88@gmail.com>
 ---
 
-The Monetary Policy Release
+The Gotham City Release
 
-add ECIP-1017 equivalent.
+| Block Number | Applied RFCs |
+| ------------ | ------------ |
+| 1150000 | `4/FEE` |
+| 2500000 | `4/FEE`, `5/FEE` |
+| 3000000 | `4/FEE`. `5/FEE`, `6/REPLAY`, `7/FEE`, `8/DIFF` |
+| ? | `4/FEE`. `5/FEE`, `6/REPLAY`, `7/FEE`, `8/DIFF`, `12/MP` |
