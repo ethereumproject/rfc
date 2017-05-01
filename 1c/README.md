@@ -1,12 +1,14 @@
 ---
 domain: rfc.ethereumclassic.org
 shortname: 1c/DIEHARD
-name: [YIPEE KAY YAY](https://www.youtube.com/watch?v=pEOVNmSR7_c)
+name: DIE HARD
 status: stable
 editor: Stewart Mackenzie <setori88@gmail.com>
 ---
 
+The Die Hard Release
 
+https://www.youtube.com/watch?v=pEOVNmSR7_c
 
 | Feature | RFC |
 |---------|-----|
