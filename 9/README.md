@@ -1,18 +1,17 @@
 ---
-domain: rfc.ethereumclassic
-shortname: 9/MAIN
-name: Ethereum Classic Mainnet Description
-status: raw
-editor: Wei Tang <hi@that.world>
+domain: rfc.ethereumclassic.org
+shortname: 9/DIEHARD
+name: DIE HARD
+status: stable
+editor: Stewart Mackenzie <setori88@gmail.com>
 ---
 
-This RFC provide a description for the Ethereum Classic Mainnet. The
-core protocol specification should be referred from `3/YP`.
+The Die Hard Release
 
-The following hard forks apply from some specific block numbers:
+https://www.youtube.com/watch?v=pEOVNmSR7_c
 
-| Block Number | Applied RFCs |
-| ------------ | ------------ |
-| 1150000 | `4/HS` |
-| 2500000 | `4/HS`, `5/IOGAS` |
-| 3000000 | `4/HS`. `5/IOGAS`, `6/REPLAY`, `7/EXP`, `8/DIFF` |
+  | Block Number | Applied RFCs |
+  | ------------ | ------------ |
+  | 1150000 | `4/FEE` |
+  | 2500000 | `4/FEE`, `5/FEE` |
+  | 3000000 | `4/FEE`. `5/FEE`, `6/REPLAY`, `7/FEE`, `8/DIFF` |

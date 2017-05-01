@@ -1,8 +1,8 @@
 ---
 domain: rfc.ethereumclassic
-shortname: 7/EXP
+shortname: 7/FEE
 name: EXP Cost Increase
-status: raw
+status: stable
 editor: Wei Tang <hi@that.world>
 ---
 

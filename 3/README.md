@@ -1,18 +1,10 @@
 ---
 domain: rfc.ethereumclassic
-shortname: 3/YP
+shortname: 3/FEE
 name: Ethereum Yellow Paper
-status: raw
+status: deprecated
 editor: Wei Tang <hi@that.world>
 ---
-
-The Yellow Paper is the de-facto specification for anyone building an
-Ethereum client. The newest version of the paper can be found
-at [Gavin Wood's personal website](http://gavwood.com/paper.pdf).
-
-## License
-
-Copyright (c) 2017 Gavin Wood. All Rights Reserved.
 
 ## Hard Fork
 

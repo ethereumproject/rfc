@@ -1,8 +1,8 @@
 ---
 domain: rfc.ethereumclassic
-shortname: 5/IOGAS
+shortname: 5/FEE
 name: Gas Cost Changes for IO-heavy Operations
-status: raw
+status: deprecated
 editor: Wei Tang <hi@that.world>
 ---
 
