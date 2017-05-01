@@ -3,18 +3,38 @@ domain: rfc.ethereumclassic
 shortname: 8/DIFF
 name: Delay Difficulty Bomb Explosion
 status: stable
-editor: Wei Tang <hi@that.world>
+editor: Igor Artamonov <splix@ethereumclassic.org>
 ---
 
 Derived
 from
 [ECIP1010](https://github.com/ethereumproject/ECIPs/blob/master/ECIPs/ECIP-1010.md).
 
+## Abstract
+
+This ECIP describes the details of delaying Difficulty Bomb growth for one year. It’s suggested to change Difficulty Bomb formula to stop growing for period of time from January 2017 to December 2017, which is around blocks 3,000,000 and 5,000,000 accordingly.
+
+## Motivation
+
+For the next phase of Ethereum Classic it’s planned to make a set of updates that could possible break backward compatibility and make serious changes to Ethereum Classic economic model. It includes changes to Monetary Policy, PoW/PoS or Hybrid, Replay Attack, DAG growths and Difficulty Bomb itself. All of these topics are important and must be solved as soon as possible.
+
+Such changes to the protocol can cause another fork, and it’s very dangerous to introduce just part of protocol changes at this moment. It’s very likely that after the Difficulty Bomb will be diffused it will be near impossible to make any other changes to the protocol. That is one of the main reasons why Difficulty Bomb was introduced initially.
+
+To reduce risk of a potential fork during protocol upgrades and to keep development resources focused on working on the next phase of the Ethereum Classic, it seems reasonable to implement Difficulty Bomb diffusion at the very last step in the series of protocol upgrades.
+
+Most of this upgrades to the protocol requires significant time for finding optimal model, implementation and testing. It’s too reckless to make this changes without proper validation. With optimistic estimations it requires at least 6 months, which is not giving us enough time before Difficulty Explosion moment. Also consider the fact that this is an estimation for the ideal situation.
+
+One of the most feasible solutions at this moment will be delaying difficulty growth to the moment when all other changes will be ready to use.
+
+Delaying the Difficulty Bomb is a trivial change to the protocol. It keeps all the logic on place, just adds a pause in X blocks to stop difficulty growing for a some period of time. If we choose 2,000,000 blocks, it will a pause it for about a year, which will give us time to implement and test all protocol upgrades for the next version.
+
+## Specification
+
 Current formula for a minimal difficulty is
 
 ````
-block_diff = parent_diff 
-     + parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) / 10, -99) 
+block_diff = parent_diff
+     + parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) / 10, -99)
      + int(2**((block.number / 100000) - 2))
 ````
 
@@ -59,13 +79,13 @@ Final formula:
 if (block.number < pause_block) {
     explosion = (block.number / 100000) - 2    
 } else if (block.number < cont_block) {
-    explosion = fixed_diff 
+    explosion = fixed_diff
 } else { // block.number >= cont_block    
     explosion = (block.number / 100000) - delay - 2
 }
 
-block_diff = parent_diff 
-      + parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) / 10, -99) 
+block_diff = parent_diff
+      + parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) / 10, -99)
       + int(2**explosion)
 ````
 
@@ -76,3 +96,7 @@ With this changes min difficulty value will become:
 * Block 5,000,000 == 2**28 == 268,435,456
 * Block 5,200,000 == 2**30 == 1 TH
 * Block 6,000,000 == 2**38 == 274 TH
+
+## Links
+
+Difficulty growth model: https://docs.google.com/spreadsheets/d/1ZXNrSCNV0HGWU7zOTUyIIRUGv5M44P6wiAZclpY4Y2Q/edit
