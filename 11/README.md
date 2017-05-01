@@ -2,7 +2,7 @@
 domain: rfc.ethereumclassic.org
 shortname: 11/SIG
 name: ETC On-Chain Cryptographic Signing and Authentication Protocol
-status: draft
+status: raw
 editor: Cody W Burns <cody.w.burns@ethereumclassic.org>
 ---
 
