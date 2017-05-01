@@ -1,6 +1,6 @@
 # RFC Summary
 
-* [Introduction](README.md)
+* [RFC Introduction](README.md)
 * Raw
   * [3/YP](3/README.md)
   * [4/HS](4/README.md)
@@ -18,6 +18,7 @@
 
 # Chain Summary
 
+* [RFCOMP Introduction](RFCOMP-README.md)
 * Testnet
   * [2/RFCOMP](rfcomp/2.md)
 * Mainnet
