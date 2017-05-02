@@ -18,7 +18,7 @@ Note that things below should apply:
 * The virtual machine specification should be referred from
   `13/OPCODE`.
 * Block finalization, regarding to mining rewards, should be referred
-  from `12/MP`.
+  from `12/BLKFIN`.
 
 ## Hard Forks
 
