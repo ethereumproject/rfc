@@ -4,14 +4,17 @@
 * Raw
   * [11/SIG](11/README.md)
 * Draft
-  * [12/MP](12/README.md)
+  * [12/BLKFIN](12/README.md)
   * [2/COSS](2/README.md)
 * Stable
+  * [15/TRASIG](15/README.md)
+  * [13/OPCODE](13/README.md)
   * [8/DIFF](8/README.md)
   * [7/FEE](7/README.md)
   * [6/REPLAY](6/README.md)
   * [1/C4](1/README.md)
 * Deprecated
+  * [14/TRASIG](14/README.md)
   * [5/FEE](5/README.md)
   * [4/FEE](4/README.md)
   * [3/FEE](3/README.md)
