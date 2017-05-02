@@ -1,12 +1,12 @@
 ---
 domain: rfc.ethereumclassic.org
-shortname: 12/MP
+shortname: 12/BLKFIN
 name: Ethereum Block Finalisation with Monetary Policy
 status: draft
 editor: Matthew Mazur <5n4pr011@gmail.com>
 ---
 
-See `explanation.md` for details of this RFC.
+See [explanation](explanation.md) for details of this RFC.
 
 ## Changes
 
