@@ -29,14 +29,11 @@ block_diff = parent_diff
       + int(2**explosion)
 ````
 
-With this changes min difficulty value will become:
-* Block 2,500,000 == 2**23 == 8,388,608
-* Block 3,000,000 == 2**28 == 268,435,456
-* Block 4,000,000 == 2**28 == 268,435,456
-* Block 5,000,000 == 2**28 == 268,435,456
-* Block 5,200,000 == 2**30 == 1 TH
-* Block 6,000,000 == 2**38 == 274 TH
+Using constants:
 
-## Links
-
-Difficulty growth model: https://docs.google.com/spreadsheets/d/1ZXNrSCNV0HGWU7zOTUyIIRUGv5M44P6wiAZclpY4Y2Q/edit
+````
+pause_block = 3000000 //15 Jan 2017
+cont_block = 5000000 //15 Dec 2017
+delay = (cont_block - pause_block) / 100000 //20
+fixed_diff = (pause_block / 100000) - 2 //28
+````
