@@ -6,25 +6,11 @@ status: deprecated
 editor: Wei Tang <hi@that.world>
 ---
 
-## Hard Fork
+## Fee Schedule
 
-The paper includes a few sections about hard forked version of the
-protocol. Developers should note that those sections does not
-generally apply from block number 0 in all current main Ethereum
-blockchains.
-
-### Homestead
-
-The paper talked about the homestead hard fork, thus everything
-related to it and the $$N_H$$ variable will only work after the
-homestead hard fork block. This also includes the signature validity
-check in Appendix F.
-
-### Fee Schedule
-
-The paper's Appendix G is updated to always refer to the newest fee
-schedule. Here we attach the fee schedule that should be applied from
-block number 0 in Ethereum and Ethereum Classic mainnet.
+The Yellow Paper's Appendix G is updated to always refer to the newest
+fee schedule. Here we attach the fee schedule that should be applied
+from block number 0 in Ethereum and Ethereum Classic mainnet.
 
 | Name | Value | Description |
 | ---- | ----- | ----------- |
@@ -63,3 +49,7 @@ block number 0 in Ethereum and Ethereum Classic mainnet.
 | `G_sha3word` | 6 | Paid for each word (rounded up) for input data to a `SHA3` operation. |
 | `G_copy` | 2 | Partial payment for `*COPY` operations, multiplied by words copied, rounded up. |
 | `G_blockhash` | 20 | Payment for `BLOCKHASH` operation. |
+
+## Gas Cost
+
+As the fee constants have been determinted, this RFC should also specify the gas cost algorithms to be executed. The currently should refer to the EIP-150 revision of the yellow paper.
