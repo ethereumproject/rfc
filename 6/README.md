@@ -1,6 +1,6 @@
 ---
 domain: rfc.ethereumclassic
-shortname: 6/TRASIG
+shortname: 6/REPLAY
 name: Signing Transactions with Simple Replay Attach Protection
 status: stable
 editor: Wei Tang <hi@that.world>
