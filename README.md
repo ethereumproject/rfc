@@ -1,7 +1,7 @@
 Ethereum Classic RFC
 ====================
 
-[![Build Status](https://jenkins.that.world/buildStatus/icon?job=Ethereum Classic RFC)](https://jenkins.that.world/job/Ethereum Classic RFC)
+[![Build Status](https://jenkins.that.world/buildStatus/icon?job=Ethereum%20Classic%20RFC)](https://jenkins.that.world/job/Ethereum%20Classic%20RFC)
 
 This is the Ethereum Classic RFC project.
 
