@@ -3,6 +3,7 @@
 * [RFC Introduction](README.md)
 * Raw
   * [11/SIG](11/README.md)
+  * [16/EVMJSON](16/README.md)
 * Draft
   * [12/MP](12/README.md)
   * [2/COSS](2/README.md)
