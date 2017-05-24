@@ -8,7 +8,7 @@ contributors:
   - Pieter Hintjens <ph@imatix.com>
 ---
 
-The Collective Code Construction Contract (C4) is an evolution of the github.com [Fork + Pull Model](http://help.github.com/send-pull-requests/), aimed at providing an optimal collaboration model for free software projects. This is revision 2 of the C4 specification.
+The Collective Code Construction Contract (C4) is an evolution of the [Fork + Pull Model](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/), aimed at providing an optimal collaboration model for free software projects. This is revision 2 of the C4 specification.
 
 This RFC is equivalent (with the exception of minor cosmetic changes) to [ZeroMQ RFC 42/C4](http://rfc.zeromq.org/spec:42)
 
