@@ -1,6 +1,6 @@
 ---
 domain: rfc.unprotocols.org
-shortname: 1/C4
+shortname: 17/C4
 name: Collective Code Construction Contract
 status: raw
 editor: Isaac Ardis <rotblauer@gmail.com>
