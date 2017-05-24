@@ -66,36 +66,7 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 1. A patch MUST adhere to the "Evolution of Public Contracts" guidelines defined below.
 1. A patch SHALL NOT include non-trivial code from other projects unless the Contributor is the original author of that code.
 1. A patch MUST compile cleanly and pass project self-tests on at least the principle target platform.
-1. A patch commit message MUST consist of a single short (less than 50 characters) line stating the subject of changes and MUST be followed by a blank line, followed by an OPTIONAL paragraph describing changes in detail (if present, succeeded too by a MANDATORY blank line), followed by a MANDATORY description of the reason for the change ("Problem: ..."). Subsequent pontifications and references are OPTIONAL. _eg._
-```
-Summarize changes in around 50 characters or less
-
-More detailed explanatory text, if necessary. Wrap it to about 72
-characters or so. In some contexts, the first line is treated as the
-subject of the commit and the rest of the text as the body. The
-blank line separating the summary from the body is critical (unless
-you omit the body entirely); various tools like `log`, `shortlog`
-and `rebase` can get confused if you run the two together.
-
-Problem: Explain the problem that this commit is solving. Focus on why you
-are making this change as opposed to how (the code explains that).
-Are there side effects or other unintuitive consequences of this
-change? Here's the place to explain them.
-
-Further paragraphs come after blank lines.
-
- - Bullet points are okay, too
-
- - Typically a hyphen or asterisk is used for the bullet, preceded
-   by a single space, with blank lines in between, but conventions
-   vary here
-
-If you use an issue tracker, put references to them at the bottom,
-like this:
-
-Resolves: #123
-See also: #456, #789
-```
+1. A patch commit message MUST consist of a single short (less than 50 characters) line stating the problem ("Problem: ...") being solved, followed by a blank line and then the proposed solution ("Solution: ...").
 1. A "Correct Patch" is one that satisfies the above requirements.
 
 ### 2.4. Development Process
