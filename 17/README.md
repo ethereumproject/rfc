@@ -3,10 +3,10 @@ domain: rfc.unprotocols.org
 shortname: 1/C4
 name: Collective Code Construction Contract
 status: raw
-editor: Stewart Mackenzie <setori88@gmail.com>
+editor: Isaac Ardis <rotblauer@gmail.com>
 contributors:
   - Pieter Hintjens <ph@imatix.com>
-  - Isaac Ardis <rotblauer@gmail.com>
+  - Stewart Mackenzie <setori88@gmail.com>
 ---
 
 The Collective Code Construction Contract (C4) is an evolution of the github.com [Fork + Pull Model](http://help.github.com/send-pull-requests/), aimed at providing an optimal collaboration model for free software projects. This is revision 2 of the C4 specification.
