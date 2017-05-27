@@ -17,7 +17,7 @@ module.exports = {
         var insert = "";
 
         if (!page.noinsert && page.status) {
-          insert += "![" + page.status + "](http://rfc.unprotocols.org/spec:2/COSS/" + page.status + ".svg)\n"
+          insert += "![" + page.status + "](https://etcrfc.that.world/spec:2/COSS/" + page.status + ".svg)\n"
         }
 
         if (!page.noinsert && page.domain) {
