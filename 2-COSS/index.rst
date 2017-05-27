@@ -2,7 +2,7 @@
 :contributors: - Pieter Hintjens <ph@imatix.com>
                - Wei Tang <hi@that.world>
 
-18-COSS: Consensus-Oriented Specification System
+2-COSS: Consensus-Oriented Specification System
 ================================================
 
 This document describes a consensus-oriented specification system (COSS)
