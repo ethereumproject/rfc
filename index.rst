@@ -21,7 +21,7 @@ Guidelines
 ----------
 
 * A specification SHOULD be created and modified by pull requests according to :doc:`1-C4/index`.
-* Specification lifecycle SHOULD follow the lifecycle defined in :doc:`18-COSS/index`.
+* Specification lifecycle SHOULD follow the lifecycle defined in :doc:`2-COSS/index`.
 * Specification SHOULD use the CC0 license
 * Specification SHOULD use `RFC 2119 <http://tools.ietf.org/html/rfc2119>`_ key words.
 * Non-cosmetic changes are allowed only on Raw and Draft specifications.
