@@ -252,7 +252,7 @@ scheme:
 -  |stable|
 -  |deprecated|
 -  |retired|
--  |retired|
+-  |deleted|
 
 Appendix B. Metainformation
 ---------------------------
