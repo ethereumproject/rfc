@@ -1,5 +1,5 @@
 module.exports = {
     title: 'Ethereum Classic RFCs',
     gitbook: '>=3.0.0',
-    plugins: ['coss@1.0.6', 'mathjax']
+    plugins: ['coss@file+_coss/', 'mathjax']
 };

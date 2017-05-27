@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-coss",
+  "version": "1.0.6",
+  "description": "COSS plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unprotocols/gitbook-plugin-coss.git"
+  },
+  "author": "Yurii Rashkovskii <yrashk@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/unprotocols/gitbook-plugin-coss/issues"
+  },
+  "homepage": "https://github.com/unprotocols/gitbook-plugin-coss#readme",
+  "dependencies": {
+    "glob": "^7.0.3"
+  }
+}
