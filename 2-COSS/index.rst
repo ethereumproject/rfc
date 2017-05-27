@@ -1,8 +1,8 @@
-:editor: Wei Tang <hi@that.world>
+:editor: Stewart Mackenzie <setori88@gmail.com>
 :contributors: - Pieter Hintjens <ph@imatix.com>
-               - Stewart Mackenzie <setori88@gmail.com>
+               - Wei Tang <hi@that.world>
 
-18-COSS: Consensus-Oriented Specification System
+2-COSS: Consensus-Oriented Specification System
 ================================================
 
 This document describes a consensus-oriented specification system (COSS)
