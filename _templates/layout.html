@@ -1,0 +1,29 @@
+{% extends "!layout.html" %}
+{% block document %}
+
+{% if parents|length > 0 and parents[0].link == "../raw.html" %}
+<img src="/_static/raw.svg" />
+{% endif %}
+
+{% if parents|length > 0 and parents[0].link == "../draft.html" %}
+<img src="/_static/draft.svg" />
+{% endif %}
+
+{% if parents|length > 0 and parents[0].link == "../stable.html" %}
+<img src="/_static/stable.svg" />
+{% endif %}
+
+{% if parents|length > 0 and parents[0].link == "../deprecated.html" %}
+<img src="/_static/deprecated.svg" />
+{% endif %}
+
+{% if parents|length > 0 and parents[0].link == "../retired.html" %}
+<img src="/_static/retired.svg" />
+{% endif %}
+
+{% if parents|length > 0 and parents[0].link == "../deleted.html" %}
+<img src="/_static/deleted.svg" />
+{% endif %}
+
+{{ super() }}
+{% endblock %}
