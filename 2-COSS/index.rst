@@ -210,11 +210,6 @@ a specification is necessary in these circumstances:
 The responsible editor of a branched specification is the person who
 makes the branch.
 
-Branches, including added contributions, are derived works and thus
-licensed under the same terms as the original specification. This means
-that contributors are guaranteed the right to merge changes made in
-branches back into their original specifications.
-
 Technically speaking, a branch is a *different* specification, even if
 it carries the same name. Branches have no special status except that
 accorded by the community.
